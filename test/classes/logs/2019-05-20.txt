@@ -1,7 +1,0 @@
-Time : 09:03:49
-SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
-Raw SQL : SELECT * FROM tbl_courses WHERE course_name = :course_name
-
-Time : 09:01:47
-SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
-Raw SQL : SELECT * FROM tbl_courses WHERE course_name = :course_name

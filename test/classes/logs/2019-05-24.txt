@@ -1,2 +1,0 @@
-Time : 05:02:14
-SQLSTATE[HY000] [1040] Too many connections

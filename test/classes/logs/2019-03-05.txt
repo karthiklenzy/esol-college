@@ -1,3 +1,0 @@
-Time : 07:14:39
-SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'child_gender' cannot be null
-Raw SQL : INSERT INTO tbl_admission_child (parent_id, child_name, child_surname, child_preff_name, child_school, child_dob, child_gender, child_grade, child_marks, child_preff_day) VALUE (:parent_id, :child_name, :child_surname, :child_preff_name, :child_school, :child_dob, :child_gender, :child_grade, :child_marks, :child_preffered_day)

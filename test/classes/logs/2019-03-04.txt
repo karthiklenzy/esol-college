@@ -1,7 +1,0 @@
-Time : 07:40:42
-SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'parent_id, child_name, child_surname, child_preff_name, child_school, child_dob,' at line 1
-Raw SQL : INSERT INTO tbl_admission_child (child_id	parent_id, child_name, child_surname, child_preff_name, child_school, child_dob, child_gender, child_marks, child_preff_day) VALUE (:child_name, :child_surname, :child_preff_name, :child_school, :child_dob, :child_gender, :child_grade, :child_marks, :child_preffered_day)
-
-Time : 05:27:52
-SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
-Raw SQL : INSERT INTO tbl_admission (parent_name, parent_surname, parent_profession, parent_relation, parent_landline, parent_mobile, parent_address, parent_mail, for_register, for_request) VALUES (:p_name, :p_surname, :p_profession, :p_mobile, :p_address, :p_email, :p_register, :p_request)
