@@ -1,0 +1,2 @@
+Time : 18:10:17
+SQLSTATE[08004] [1040] Too many connections

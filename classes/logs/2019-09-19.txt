@@ -1,0 +1,7 @@
+Time : 08:56:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '23999977.2, 12' at line 1
+Raw SQL : SELECT tbl_events_image.*, tbl_events.event_name FROM tbl_events_image INNER JOIN tbl_events WHERE tbl_events_image.event_id = :eventid AND tbl_events_image.event_id = tbl_events.event_id limit 23999977.2, 12
+
+Time : 08:56:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1.4545345345453E+14, 12' at line 1
+Raw SQL : SELECT tbl_events_image.*, tbl_events.event_name FROM tbl_events_image INNER JOIN tbl_events WHERE tbl_events_image.event_id = :eventid AND tbl_events_image.event_id = tbl_events.event_id limit 1.4545345345453E+14, 12

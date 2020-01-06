@@ -1,0 +1,7 @@
+Time : 18:32:54
+SQLSTATE[08004] [1040] Too many connections
+
+Time : 15:23:29
+SQLSTATE[HY000] [1040] Too many connections
+Time : 15:23:29
+SQLSTATE[08004] [1040] Too many connections

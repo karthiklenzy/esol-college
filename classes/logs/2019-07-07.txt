@@ -1,0 +1,5 @@
+Time : 03:31:59
+SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+
+Time : 03:28:33
+SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)

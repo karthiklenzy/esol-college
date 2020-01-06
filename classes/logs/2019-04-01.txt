@@ -1,0 +1,23 @@
+Time : 14:08:16
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'esol1_esolcoll_db_esol_lk.tbl_students' doesn't exist
+Raw SQL : UPDATE tbl_students SET student_status = 1 WHERE student_verify_code = :student_verify_id
+
+Time : 14:08:08
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'esol1_esolcoll_db_esol_lk.tbl_students' doesn't exist
+Raw SQL : UPDATE tbl_students SET student_status = 1 WHERE student_verify_code = :student_verify_id
+
+Time : 13:33:53
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'esol1_esolcoll_db_esol_lk.tbl_students' doesn't exist
+Raw SQL : UPDATE tbl_students SET student_status = 1 WHERE student_verify_code = :student_verify_id
+
+Time : 13:33:40
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'esol1_esolcoll_db_esol_lk.tbl_students' doesn't exist
+Raw SQL : UPDATE tbl_students SET student_status = 1 WHERE student_verify_code = :student_verify_id
+
+Time : 13:30:46
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'esol1_esolcoll_db_esol_lk.tbl_students' doesn't exist
+Raw SQL : UPDATE tbl_students SET student_status = 1 WHERE student_verify_code = :student_verify_id
+
+Time : 13:30:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'esol1_esolcoll_db_esol_lk.tbl_students' doesn't exist
+Raw SQL : UPDATE tbl_students SET student_status = 1 WHERE student_verify_code = :student_verify_id

@@ -1,0 +1,55 @@
+Time : 16:26:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id
+
+Time : 16:26:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id
+
+Time : 16:06:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id1
+
+Time : 15:47:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id1
+
+Time : 15:46:10
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id1
+
+Time : 15:43:12
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id
+
+Time : 15:42:24
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = :classteacher AND branch_id = '1001'
+
+Time : 15:36:20
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_idd
+
+Time : 15:35:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT Name FROM teacher WHERE teacher_level_id = '1' AND branch_id = :branch_id
+
+Time : 11:10:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'batch_teacher_id' in 'where clause'
+Raw SQL : SELECT teacher_level_id FROM teacher WHERE  batch_teacher_id = :classteacher AND teacher_level_id = '1'
+
+Time : 11:09:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'batch_teacher_id' in 'where clause'
+Raw SQL : SELECT teacher_level_id FROM teacher WHERE  batch_teacher_id = :classteacher AND batch_status = :classactivestatus AND teacher_level_id = '1'
+
+Time : 11:07:32
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'teacher_level_id' in 'where clause'
+Raw SQL : SELECT batch_id FROM tbl_batch WHERE  batch_teacher_id = :classteacher AND batch_status = :classactivestatus AND teacher_level_id = '1'
+
+Time : 11:07:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'teacher_level_id' in 'where clause'
+Raw SQL : SELECT batch_id FROM tbl_batch WHERE  batch_teacher_id = :classteacher AND batch_status = :classactivestatus AND teacher_level_id = '1'
+
+Time : 11:07:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'teacher_level_id' in 'where clause'
+Raw SQL : SELECT batch_id FROM tbl_batch WHERE  batch_teacher_id = :classteacher AND batch_status = :classactivestatus AND teacher_level_id = '1'

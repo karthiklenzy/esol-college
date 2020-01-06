@@ -1,0 +1,7 @@
+Time : 13:21:35
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT branch_id FROM tbl_branch WHERE branch_name = :branch_name
+
+Time : 10:39:47
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_esol_lk.tbl_branches' doesn't exist
+Raw SQL : SELECT * FROM tbl_branches
